@@ -22,7 +22,7 @@ int main (){
     double end_time = omp_get_wtime();
 
 
-    printf("pi = %.15f\n", pi);
+    printf("pi(serial) = %.15f\n", pi);
     printf("Time taken (seconds) = %f\n", end_time - start_time);
 
     return 0;
